@@ -44,16 +44,7 @@ export default function RootLayout({
             __html: `(function(){try{var h=location.host;if(h!=='bdarchive.site'&&h.indexOf('localhost')===-1){location.replace('https://bdarchive.site'+location.pathname+location.search+location.hash);}}catch(e){}})();`,
           }}
         />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-9R933EXKXN"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-9R933EXKXN');
-        `}</Script>
+        {/* GA 제거 (폐기 프로젝트 — 분석 불필요 + Archive GA 오염 방지, 2026-06-07) */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
