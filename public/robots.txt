@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bdarchive.site/corporate/sitemap.xml
+Sitemap: https://corporate-egh.pages.dev/corporate/sitemap.xml
