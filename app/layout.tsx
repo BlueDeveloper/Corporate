@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   description: "전문적인 버추얼 스테이징과 인테리어 디자인 서비스. 10년 이상의 경험으로 공간의 가치를 높입니다.",
   keywords: "버추얼 스테이징, 인테리어 디자인, 공간 디자인, 부동산 스테이징, 실내 디자인",
   alternates: {
-    canonical: "https://corporate-egh.pages.dev/corporate/",
+    canonical: "https://corporate-egh.pages.dev/",
   },
   openGraph: {
     title: "Interior - 버추얼 스테이징 & 인테리어 디자인",
     description: "전문적인 버추얼 스테이징과 인테리어 디자인 서비스. 공간의 가치를 높입니다.",
     type: "website",
-    url: "https://corporate-egh.pages.dev/corporate/",
+    url: "https://corporate-egh.pages.dev/",
   },
 };
 
